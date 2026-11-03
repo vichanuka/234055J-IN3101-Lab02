@@ -78,7 +78,11 @@ cd library-api
 
 ### 3. Setup Environment Variables (`.env`)
 
-Create or update the `.env` file in the root directory of the project with your MySQL database credentials:
+Copy `env.example` (or `.env.example`) to `.env` in the root directory and update it with your MySQL database credentials:
+
+```bash
+cp env.example .env
+```
 
 ```properties
 # Database Configuration
